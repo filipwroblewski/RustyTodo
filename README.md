@@ -48,16 +48,6 @@ Ensure you have Rust and Cargo installed. If not, you can install them from [Rus
 
 ## Running the Project
 
-### Set Environment Variables
-
-Create a `.env` file in the root of your project directory and add the necessary environment variables. Example for SQLite:
-
-```env
-DATABASE_URL=sqlite://database.db
-```
-
-_**Note**: Make sure that the database file path is correct and accessible_
-
 ### Rust
 
 1. Build and run the Rust application:

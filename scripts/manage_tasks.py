@@ -20,7 +20,7 @@ def create_task(title):
         print(response.text)
 
 def get_tasks():
-    url = f"{base_url}/tasks"
+    url: str = f"{base_url}/tasks"
     response = requests.get(url)
     
     if response.status_code == 200:
